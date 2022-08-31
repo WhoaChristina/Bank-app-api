@@ -1,0 +1,16 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<div>
+    <p>@ViewBag.msg</p>
+    <form asp-controller="Login" asp-action="Login" method="post">
+    <label>Användarnamn</label>
+    <br/>
+    <input required type= "text" name="username"/>
+    <br/>
+    <label>Lösenord</label>
+    <br/>
+    <input required type="password" name="password" />
+    <br/>
+    <br/>
+    <button type="submit">Logga In</button>
+    </form>
+</div>

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "618ef122-29e3-43ca-b40a-4a3edb50031f": {
+      "ProjectGuid": "618ef122-29e3-43ca-b40a-4a3edb50031f",
+      "DisplayName": "BankApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e1440c8f-c4f9-4839-8593-470433a5e286": {
+      "ProjectGuid": "e1440c8f-c4f9-4839-8593-470433a5e286",
+      "DisplayName": "BankApp.Api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

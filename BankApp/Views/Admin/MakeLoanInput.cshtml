@@ -1,0 +1,25 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Admin" asp-action="MakeLoanInput" method="post">
+    <label>Kredit:  </label>
+    <input type="radio" name="type" value="Credit" />
+    <label>Debit:  </label>
+    <input type="radio" name="type" value="Debit" />
+    <br />
+    <label>Summa</label>
+    <br/>
+    <input required type= "text" name="amount"/>
+    <br/>
+    <label>Från konto</label>
+    <br/>
+    <input required type="text" name="fromAcc" />
+    <br/>
+    <label>Till konto</label>
+    <br />
+    <input required type="text" name ="tooAcc" />
+    <br />
+    <br/>
+    <button type="submit">Skicka</button>
+</form>
+<br/>
+<a asp-controller ="Admin" asp-action="AdminStart"><button>Tillbaka</button></a>

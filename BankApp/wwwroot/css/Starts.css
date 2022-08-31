@@ -1,0 +1,38 @@
+﻿div
+{
+    text-align: center;
+}
+h2 
+{
+    color: #ee6c4d;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    font-family: Rockwell;
+}
+button 
+{
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #ee6c4d;
+}
+button:hover 
+{
+    background-color: #3d5a80;
+}
+h3
+{
+    font-family: Rockwell;
+    font-size: 1.5rem;
+}
+p
+{
+    font-family: Rockwell;
+    font-size: 0.8 rem;
+}
+.specDiv
+{
+    border: solid;
+    width: 20rem;
+    margin: auto;
+}
+

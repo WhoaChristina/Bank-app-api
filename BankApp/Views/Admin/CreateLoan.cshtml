@@ -1,0 +1,28 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Admin" asp-action="CreateLoan" method="post">
+    <label>Kontonummer</label>
+    <br/>
+    <input required type= "text" name="accountId"/>
+    <br/>
+    <label>Summa</label>
+    <br/>
+    <input required type="text" name="amount" />
+    <br/>
+    <label>Längd på lån (antal dagar)</label>
+    <br/>
+    <input required type="text" name="duration" />
+    <br/>
+    <label>Betalningar</label>
+    <br/>
+    <input required type="text" name="payments" />
+    <br />
+    <label>Status</label>
+    <br/>
+    <input required type="text" name="status" />
+    <br/>
+    <br/>
+    <button type="submit">Skapa</button>
+</form>
+<br/>
+<a asp-controller ="Admin" asp-action="AdminStart"><button>Tillbaka</button></a>

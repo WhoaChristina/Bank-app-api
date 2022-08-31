@@ -1,0 +1,30 @@
+﻿div
+{
+    text-align: center;
+}
+button 
+{
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #ee6c4d;
+}
+button:hover 
+{
+    background-color: #3d5a80;
+}
+label 
+{
+    font-family: Rockwell;
+    font-size: 2rem;
+    color:#ee6c4d
+}
+input
+{
+    height: 2rem;
+    font-size: 1.5rem;
+    font-family: Bahnschrift;
+}
+input[type='radio'] 
+{
+    transform: scale(2);
+}

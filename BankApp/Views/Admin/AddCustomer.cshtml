@@ -1,0 +1,58 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Admin" asp-action="AddCustomer" method="post">
+
+    <label>Kvinna:  </label>
+    <input type="radio" name="gender" value="female" />
+    <label>man:  </label>
+    <input type="radio" name="gender" value="male" />
+    <br />
+    <label>Förnamn</label>
+    <br/>
+    <input required type= "text" name="givenName"/>
+    <br/>
+    <label>Efternamn</label>
+    <br/>
+    <input required type="text" name="surname" />
+    <br/>
+    <label>Address</label>
+    <br />
+    <input required type="text" name ="streetname" />
+    <br />
+    <label>Stad</label>
+    <br />
+    <input required type="text" name ="city" />
+    <br />
+    <label>Postnummer</label>
+    <br />
+    <input required type="text" name ="zipcode" />
+    <br />
+    <label>Land</label>
+    <br />
+    <input required type="text" name ="country" />
+    <br/>
+    <label>Landskod</label>
+    <br />
+    <input required type="text" name ="countrycode" />
+    <br />
+    <label>Födelsedag(yyyy-mm-dd)</label>
+    <br />
+    <input required type="text" name ="birthday" />
+    <br />
+    <label>Riktnummer</label>
+    <br />
+    <input required type="text" name ="tCountryCode" />
+    <br />
+    <label>Telefon</label>
+    <br />
+    <input required type="text" name ="phone" />
+    <br />
+    <label>Email</label>
+    <br />
+    <input required type="text" name ="email" />
+    <br />
+    <br/>
+    <button type="submit">Registrera</button>
+</form>
+<br/>
+<a asp-controller ="Admin" asp-action="AdminStart"><button>Tillbaka</button></a>

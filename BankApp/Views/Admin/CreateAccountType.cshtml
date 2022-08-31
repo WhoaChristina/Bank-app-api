@@ -1,0 +1,20 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Admin" asp-action="CreateAccountType" method="post">
+    <label>Namn</label>
+    <br/>
+    <input required type= "text" name="typeName"/>
+    <br/>
+    <label>Beskrivning</label>
+    <br/>
+    <input required type="text" name="description" />
+    <br/>
+    <label>Räntesats</label>
+    <br/>
+    <input required type="text" name="interest" />
+    <br />
+    <br />
+    <button type="submit">Skapa</button>
+</form>
+<br />
+<a asp-controller ="Admin" asp-action="AdminStart"><button>Tillbaka</button></a>

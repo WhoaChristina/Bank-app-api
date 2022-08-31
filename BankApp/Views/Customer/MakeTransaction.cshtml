@@ -1,0 +1,18 @@
+﻿@model BankApp.Models.TempAccount;
+<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Customer" asp-action="MakeTransaction" method="post">
+    <label>Summa</label>
+    <br/>
+    <input type= "text" name="amount"/>
+    <br/>
+    <label>Till konto</label>
+    <br />
+    <input type="text" name ="tooAcc" />
+    <br />
+    <br/>
+    <input type="hidden" name="id" value ="@Model.AccountId" />
+    <button type="submit">Skicka</button>
+</form>
+<br/>
+<a asp-controller ="Customer" asp-action="BackToStart"><button>Start</button></a>

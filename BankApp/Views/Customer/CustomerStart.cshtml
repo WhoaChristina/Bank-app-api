@@ -1,0 +1,17 @@
+﻿@model List<BankApp.Models.TempAccount>
+<link href ="~/css/Starts.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<div>
+<h2>Välkommen!</h2>
+<div class="specDiv">
+@if (Model != null)
+        {
+            @foreach (var acc in Model)
+            {
+                <h3>@acc.Balance :-</h3>
+                <p>@acc.AccountTypeName</p>
+                <a asp-controller ="Customer" asp-action="ShowDetails" asp-route-accId="@acc.AccountId"><button>Detaljer</button></a>
+            }
+        }
+    </div>
+</div>

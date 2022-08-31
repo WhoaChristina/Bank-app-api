@@ -1,0 +1,25 @@
+﻿<link href ="~/css/Login.css" asp-append-version="true" rel="stylesheet" />
+<p>@ViewBag.msg</p>
+<form asp-controller="Login" asp-action="Register" method="post">
+    <label>Användarnamn</label>
+    <br/>
+    <input required type= "text" name="username"/>
+    <br/>
+    <label>Lösenord</label>
+    <br/>
+    <input required type="password" name="password" />
+    <br/>
+    <label>Kundnummer</label>
+    <br />
+    <input required type="text" name ="id" />
+    <br />
+    <label>Administratör:  </label>
+    <input type="radio" name="role" value="Admin" />
+    <label>Kund:  </label>
+    <input type="radio" name="role" value="Customer" />
+    <br />
+    <br/>
+    <button type="submit">Registrera</button>
+</form>
+<br/>
+<a asp-controller ="Admin" asp-action="AdminStart"><button>Tillbaka</button></a>

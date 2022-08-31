@@ -1,0 +1,17 @@
+﻿@model BankApp.Models.TempModel
+<link href ="~/css/Starts.css" asp-append-version="true" rel="stylesheet" />
+<a asp-controller ="Customer" asp-action="MakeTransaction" asp-route-id="@Model.AccountID"><button>Överför</button></a>
+<br />
+<br/>
+<a asp-controller ="Customer" asp-action="BackToStart"><button>Tillbaka</button></a>
+<br/>
+<br/>
+@foreach (var item in Model.Transactions)
+{
+    <div class ="specDiv">
+    <h3>@item.Amount :-</h3>
+    <p>Från konto: @item.AccountId</p>
+    <p>Till konto: @item.Account</p>
+    <p>@item.Date.ToShortDateString()</p>
+    </div>
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "jESgHvwVPrYZzw5xaHpNzOLzB/hep8qwgVPzWc3KKEo=",
+  "Source": "BankApp",
+  "BasePath": "_content/BankApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BankApp\\wwwroot",
+      "Source": "BankApp",
+      "ContentRoot": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\",
+      "BasePath": "_content/BankApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\css\\Login.css",
+      "SourceId": "BankApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\",
+      "BasePath": "_content/BankApp",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\css\\Shared.css",
+      "SourceId": "BankApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\",
+      "BasePath": "_content/BankApp",
+      "RelativePath": "css/Shared.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Shared.css"
+    },
+    {
+      "Identity": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\css\\Starts.css",
+      "SourceId": "BankApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chris\\source\\repos\\BankApp\\BankApp\\wwwroot\\",
+      "BasePath": "_content/BankApp",
+      "RelativePath": "css/Starts.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Starts.css"
+    }
+  ]
+}
